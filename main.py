@@ -43,7 +43,7 @@ class neuralNetwork:
         #calc signals from the final output layer
         final_outputs = self.activation_function(final_input)
         print (final_outputs)
-
+'''
 input_nodes = 784
 hidden_nodes = 100
 output_nodes = 10
@@ -63,3 +63,4 @@ image_array = np.asfarray(all_values[1:]).reshape((28,28))
 plt.imshow(image_array,cmap="Greys", interpolation='None')
 print (n.query((np.asfarray(all_values[1:])/255.0 * 0.99)+0.01))
 plt.show()
+'''

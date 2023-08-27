@@ -1,5 +1,4 @@
 from main import neuralNetwork
-import matplotlib.pyplot as plt
 import numpy as np
 
 input_nodes = 784
